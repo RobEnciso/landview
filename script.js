@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize Pannellum viewer on the detail page
     if (document.getElementById('panorama')) {
         pannellum.viewer('panorama', {
+            "fullscreenToggle": true,
             "default": {
                 "firstScene": "entrance",
                 "author": "LandView",

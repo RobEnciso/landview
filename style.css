@@ -65,134 +65,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* Problem-Solution Section */
-.problem-solution {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
-.problem-solution .text-content,
-.problem-solution .visual-content {
-    flex: 1;
-}
-
-.problem-solution.alt {
-    flex-direction: row-reverse;
-}
-
-.visual-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
-
-.visual-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.comparison-visual {
-    display: flex;
-    gap: 15px;
-}
-
-.comparison-visual img {
-    flex: 1;
-    min-width: 0; /* Prevents flex items from overflowing */
-}
-
-/* Benefits Section */
-.benefits-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-}
-
-.benefit-column {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    flex: 1;
-    text-align: center;
-}
-
-.benefit-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.benefit-column ul li {
-    margin-bottom: 10px;
-}
-
-.benefit-icon img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    object-fit: cover;
-}
-
-/* Value Added Section */
-.value-added .text-content {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px;
-}
-
-/* Competitive Advantage Section */
-.competitive-advantage .text-content {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px;
-}
-
-.competitive-advantage .visual-content {
-    flex-direction: column;
-}
-
-.visual-caption {
-    margin-top: 15px;
-    font-style: italic;
-    color: #555;
-    text-align: center;
-    font-size: 1.1em;
-}
-
-/* Final CTA Section */
-.cta-final {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.cta-final h2 {
-    color: #fff;
-}
-
-.cta-final .cta-button {
-    background-color: #fff;
-    color: #007bff;
-}
-
-.cta-final .cta-button:hover {
-    background-color: #e9ecef;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #343a40;
-    color: #fff;
-}
-
 /* Listings Page */
 .listings-section {
     background-color: #fff;
@@ -309,4 +181,12 @@ footer {
 
 .contact-form .cta-button {
     align-self: flex-start;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
 }
