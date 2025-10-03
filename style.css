@@ -145,6 +145,25 @@ h3 {
     margin: 0 auto 40px;
 }
 
+/* Competitive Advantage Section */
+.competitive-advantage .text-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.competitive-advantage .visual-content {
+    flex-direction: column;
+}
+
+.visual-caption {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    font-size: 1.1em;
+}
+
 /* Final CTA Section */
 .cta-final {
     background-color: #007bff;
